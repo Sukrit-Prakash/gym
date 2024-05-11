@@ -1,0 +1,27 @@
+/* Features */
+
+.bg-primary {
+    background-color: #e31c25 !important;
+}
+
+.text-primary {
+    color: #e31c25 !important;
+}
+
+.text-secondary {
+    color: #111 !important;
+}
+
+.box {
+    padding: 75px 0px;
+}
+
+.box h2 {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.box p {
+
+    font-size: 18px;
+}

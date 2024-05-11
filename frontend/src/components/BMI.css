@@ -1,0 +1,59 @@
+/* BMI */
+
+.bmi::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../assets/image/carousel-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bmi h4 {
+
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.bmi p {
+    font-size: 19px;
+}
+
+.bmi h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.bmi h4.text-primary {
+   
+    color: #e31c25 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bolder;
+    letter-spacing: -1px;
+
+}
+
+.bmi .form-control {
+    min-height: calc(1.5em + (1rem + 2px));
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+
+}
+
+.bmi .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f18e92;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(227, 28, 37, .25);
+}
+
+.bmi .btn-wrap input:hover {
+
+    background-color: #e31c25 !important;
+
+}

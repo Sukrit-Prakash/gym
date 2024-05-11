@@ -1,0 +1,196 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    #navBar {
+
+        position: static !important;
+    }
+
+    #navBar .bg-dark-lg {
+
+        background-color: #111;
+
+    }
+
+    #navBar .menu i {
+        color: white;
+        font-size: 30px;
+    }
+
+    #navBar .menu .navbar-toggler {
+
+        border: 2px solid rgba(255, 255, 255, .1) !important;
+
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .collapse a::after {
+        display: none;
+    }
+
+    .gym-class {
+        margin-top: 0px;
+
+    }
+
+
+    .bmi .mt-5 {
+
+        margin-top: 70px !important;
+    }
+
+
+    .footer-info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    #navBar {
+
+        position: static !important;
+    }
+
+    #navBar .bg-dark-lg {
+
+        background-color: #111;
+
+    }
+
+    #navBar .menu i {
+        color: white;
+        font-size: 30px;
+    }
+
+    #navBar .menu .navbar-toggler {
+
+        border: 2px solid rgba(255, 255, 255, .1) !important;
+
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .collapse a::after {
+        display: none;
+    }
+
+    .gym-class {
+        margin-top: 0px;
+
+    }
+
+    .gym-class .gym-class-box.text-right p {
+
+        text-align: start !important;
+    }
+
+    .gym-class i {
+        display: none;
+    }
+
+    .footer-info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 575px) {
+
+    #navBar {
+
+        position: static !important;
+    }
+
+    #navBar .bg-dark-lg {
+
+        background-color: #111;
+
+    }
+
+    #navBar .menu i {
+        color: white;
+        font-size: 22px;
+    }
+
+    #navBar .menu .navbar-toggler {
+
+        border: 2px solid rgba(255, 255, 255, .1) !important;
+
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .collapse a::after {
+        display: none;
+    }
+
+    #slider a {
+       
+        font-size: 17px;
+        
+    }
+
+    .gym-class {
+        margin-top: 0px;
+
+    }
+
+    .gym-class .gym-class-box.text-right p {
+
+        text-align: center !important;
+    }
+
+    .gym-class i {
+        display: none;
+    }
+
+    .subscribe .input-group{
+
+        flex-direction: column  ;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer-info,
+    .footer-wrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-nav {
+
+        display: none;
+    }
+
+}

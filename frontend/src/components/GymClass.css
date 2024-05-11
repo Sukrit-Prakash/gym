@@ -1,0 +1,53 @@
+/* GymClass */
+
+.gym-class {
+  margin-top: -90px;
+  z-index: 2;
+  position: relative;
+}
+
+.gym-class .gym-class-box.text-right i {
+  left: 0;
+  z-index: 1;
+}
+
+.gym-class .gym-class-box.text-right p {
+
+  text-align: end !important;
+}
+
+.gym-class i {
+  position: absolute;
+  font-size: 200px;
+  line-height: 200px;
+  bottom: 0;
+  color: #fff;
+  right: 23px;
+  opacity: .1;
+}
+
+.gym-class-box {
+  padding-top: 80px;
+  padding-bottom: 118px;
+  background-color: black;
+
+}
+
+.gym-class-box h3 {
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.gym-class-box a {
+  z-index: 2;
+
+}
+
+#box-1 {
+
+  background-color: #e31c25;
+}
+
+#box-2 {
+  background-color: #111;
+}

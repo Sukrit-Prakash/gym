@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./lib/flaticon/font/Flaticon.eot");
+  src: url("./lib/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./lib/flaticon/font/Flaticon.woff2") format("woff2"),
+       url("./lib/flaticon/font/Flaticon.woff") format("woff"),
+       url("./lib/flaticon/font/Flaticon.ttf") format("truetype"),
+       url("./lib/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+html {
+  
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+
+}
+
+[class^="flaticon-"]:before {
+  font-family: Flaticon;
+  font-size: inherit;
+  margin-left: 0;
+  font-style: normal;
+
+}
+
+
+.flaticon-barbell:before {
+  content: "\f100";
+}
+
+.flaticon-treadmill:before {
+  content: "\f101";
+}
+
+.flaticon-six-pack:before {
+  content: "\f102";
+}
+
+.flaticon-bodybuilding:before {
+  content: "\f103";
+}
+
+.flaticon-medal:before {
+  content: "\f104";
+}
+
+.flaticon-muscular-bodybuilder-with-clock:before {
+  content: "\f105";
+}
+
+.flaticon-trends:before {
+  content: "\f106";
+}
+
+.flaticon-weightlifting:before {
+  content: "\f107";
+}
+
+.flaticon-training:before {
+  content: "\f108";
+}
+
+.flaticon-support:before {
+  content: "\f109";
+}
+
+.flaticon-stationary-bike:before {
+  content: "\f121";
+}

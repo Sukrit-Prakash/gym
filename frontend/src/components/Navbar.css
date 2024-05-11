@@ -1,0 +1,85 @@
+/* NavBar  */
+
+#navBar {
+  z-index: 3;
+  background-color: transparent;
+  opacity: 1;
+  width: 100%;
+}
+
+#gym {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 4px;
+}
+
+#gym h1 i {
+
+  margin-left: 8px;
+}
+
+
+.collapse a.active {
+  background-color: #e31c25;
+  border-radius: 20px;
+  color: white;
+
+}
+
+.collapse a.active::after {
+  display: none;
+
+}
+
+.collapse a {
+  color: white;
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 0.2s ease-in;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+
+}
+
+.collapse a:hover {
+
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #e31c25;
+  border-radius: 20px;
+}
+
+.collapse a::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  top: 22px;
+  border: 1px solid white;
+  transform: rotate(-27deg);
+  margin-left: -78px;
+  transition: color 0.3s ease-in;
+}
+
+.collapse a:hover::after {
+  display: none;
+
+}
+
+.collapse a.home::after {
+  margin-left: -60px;
+}
+
+.collapse li {
+
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+#navBar .nav-link{
+
+  position: relative;
+}

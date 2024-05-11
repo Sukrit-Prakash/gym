@@ -1,0 +1,61 @@
+/* Team */
+
+.card-social a {
+  width: 40px;
+  height: 40px;
+}
+
+#heading h4 {
+  color: #e31c25;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+#heading h3 {
+
+  font-family: 'Oswald', sans-serif;
+}
+
+.team .card-body {
+  position: relative;
+  z-index: 2;
+
+}
+
+.team .card-body h4 {
+
+  color: #e31c25;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bg-secondary {
+  background-color: #111 !important;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.team .card-social {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+  transition: .5s;
+  z-index: 1;
+}
+
+.team .card:hover .card-social {
+  top: 0;
+  height: 80%;
+  opacity: 1;
+  background: rgba(0, 0, 0, .3);
+}

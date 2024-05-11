@@ -1,0 +1,19 @@
+/* PageHeader */
+
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../assets/image/bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-header p {
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.page-header h4 {
+  font-family: 'Oswald', sans-serif;
+
+}

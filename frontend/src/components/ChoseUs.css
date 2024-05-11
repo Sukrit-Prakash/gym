@@ -1,0 +1,44 @@
+/* ChoseUs */
+
+#section4 {
+
+  background-color: #111;
+  color: white;
+  padding-bottom: 60px;
+}
+
+#section4 h6 {
+  color: #e31c25
+}
+
+#section4 h2,
+#section4 h3 {
+
+  font-family: 'Oswald', sans-serif;
+}
+
+#section4 div.rounded-circle {
+
+  background: rgba(255, 255, 255, 0.1);
+  color: #e31c25;
+  width: 90px;
+  height: 90px;
+  transition: ease 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#section4 p {
+  color: #666;
+  font-size: 14px;
+}
+
+#section4 .col-lg-3:hover div.rounded-circle {
+
+  background: #e31c25;
+  color: white;
+
+
+}

@@ -1,0 +1,52 @@
+/* Banner */
+
+#slider {
+
+  background-color: black;
+  z-index: 2;
+}
+
+#slider img {
+
+  z-index: -1;
+  opacity: 0.7;
+
+}
+
+#slider h4 {
+
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #e31c25;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+#slider h1 {
+
+  font-family: 'Oswald', sans-serif;
+}
+
+#slider a {
+
+  border: 1px solid white;
+  font-size: 20px;
+  outline: none;
+  font-weight: 500;
+
+}
+
+#slider a:hover {
+  background-color: white;
+  color: #e31c25 !important;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}

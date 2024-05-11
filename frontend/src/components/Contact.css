@@ -1,0 +1,43 @@
+/* Contact */
+
+#contact h4 {
+
+    color: #e31c25;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -1px;
+
+}
+
+#contact h2 {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+
+
+}
+
+#contact .bg-primary {
+
+    background-color: #e31c25 !important;
+    height: 60px;
+    width: 60px;
+}
+
+#contact p {
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+#contact .bg-primary i {
+    font-size: 23px;
+    color: white;
+}
+
+#contact .btn {
+
+    background-color: #e31c25;
+    color: white;
+    font-weight: 600;
+}
