@@ -12,12 +12,7 @@ export default function ChoseUs() {
                 </div>
 
                 <div className="row">
-                    <div id="modern" className="col-lg-3 col-md-6 d-flex align-self-baseline align-items-center justify-content-center flex-column text-center py-3">
-                        <div className='rounded-circle mb-4'><h1><i className="fa-solid fa-curling-stone"></i></h1></div>
-                        <h3 className='mb-3'>Modern Equipment</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
-
-                    </div>
+                    
                     <div id="healthy" className="col-lg-3 col-md-6 d-flex align-self-baseline align-items-center justify-content-center flex-column text-center py-3">
                         <div className='rounded-circle mb-4'><h1><i className="fa-sharp fa-solid fa-glass-citrus"></i></h1></div>
                         <h3 className='mb-3'>Healthy Nutrition Plan</h3>

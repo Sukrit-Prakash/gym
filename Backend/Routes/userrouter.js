@@ -2,7 +2,25 @@
 const express = require('express')
 const User= require('../usermodel')
 const router = express.Router();
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcryptjs');
+const Profile = require('../userdatailsmodel')
+
+router.post('/profile',async(req,res,next)=>{
+    console.log(req.body)
+    // if(weight>=)
+    const detail= new Profile({
+        age:req.body.age,
+        weight:req.body.weight,
+        height:req.body.height
+    })
+    try {
+       await detail.save()
+    } catch (error) {
+        console.log(error)
+    }
+    return res.status(201).json({message:"successfully registered details"})
+})
+
 router.post('/signup', async (req,res,next)=>{
     console.log(req.body)
     //for existing user
@@ -37,6 +55,7 @@ router.post('/signup', async (req,res,next)=>{
 //controller not set for signup
 //login route
 router.post('/login',async (req,res,next)=>{
+    console.log(req.body)
     let existinguser;
     
     try {

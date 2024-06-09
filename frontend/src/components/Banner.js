@@ -14,7 +14,7 @@ export default function Banner() {
                         <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <h4>Gym & Fitness Center</h4>
                             <h1 className='display-1'>Shape Your Body</h1>
-                            <Link to="/" className="btn mt-3 mt-md-5 py-md-3 px-md-4 px-lg-5 rounded-0 border-2 text-white text-uppercase">Join Us Now</Link>
+                            
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -22,7 +22,7 @@ export default function Banner() {
                         <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <h4>Gym & Fitness Center</h4>
                             <h1 className='display-1'>Shape Your Body</h1>
-                            <Link to="/" className="btn mt-3 mt-md-5 py-md-3 px-md-4 px-lg-5 rounded-0 border-2 text-white text-uppercase">Join Us Now</Link>
+                           
                         </div>
                     </div>
                 </div>

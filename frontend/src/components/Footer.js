@@ -34,9 +34,9 @@ export default function Footer() {
                 <div className="row pt-5">
                     <div className="footer-nav col-lg-3 col-sm-6 mb-5 ps-sm-5 ps-lg-0">
                         <h4 className="mb-4">Get In Touch</h4>
-                        <p><i className="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
-                        <p><i className="fa fa-phone-alt me-2"></i>+012 345 67890</p>
-                        <p><i className="fa fa-envelope me-2"></i>info@example.com</p>
+                        <p><i className="fa fa-map-marker-alt me-2"></i>HBTU KANPUR, New York, USA</p>
+                        <p><i className="fa fa-phone-alt me-2"></i>+91 8076760632</p>
+                        <p><i className="fa fa-envelope me-2"></i>sukritprakash2020@gmail.com</p>
 
                     </div>
                     <div className="footer-info col-lg-3 col-sm-6 mb-5">
@@ -56,13 +56,7 @@ export default function Footer() {
                             <Link className="btn btn-outline-light rounded-circle text-center me-2 px-0" style={round} to="/"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
-                    <div className="footer-info col-lg-3 col-sm-6 mb-5">
-                        <h4 className="mb-4">Opening Hours</h4>
-                        <h5 className="text-white">Monday - Friday</h5>
-                        <p>8.00 AM - 8.00 PM</p>
-                        <h5 className="text-white">Saturday - Sunday</h5>
-                        <p>2.00 PM - 8.00 PM</p>
-                    </div>
+                
                 </div>
                 <div className="container border-top border-dark pt-5">
                     <p className="m-0 text-center text-white">

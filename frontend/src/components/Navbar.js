@@ -45,11 +45,7 @@ export default function Navbar() {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" activeClassName="active" to="/about">
-                  About Us
-                </NavLink>
-              </li>
+
               <li className="nav-item">
                 <NavLink className="nav-link" activeClassName="active" to="/features">
                   Features
@@ -67,6 +63,11 @@ export default function Navbar() {
                 <li className="nav-item">
                   <NavLink className="nav-link" activeClassName="active" to ="/login">
                     LOGIN
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" activeClassName="active" to ="/profile">
+                    PROFILE
                     </NavLink>
                 </li>
               </li>

@@ -5,9 +5,9 @@ import About from '../components/About';
 import ChoseUs from '../components/ChoseUs';
 // import Team from '../components/Team';
 import Subscribe from '../components/Subscribe';
-import MonthlyPlan from '../components/MonthlyPlan';
+// import MonthlyPlan from '../components/MonthlyPlan';
 import BMI from '../components/BMI';
-import Testimonial from '../components/Testimonial';
+// import Testimonial from '../components/Testimonial';
 
 
 export default function HomeNav() {
@@ -19,9 +19,9 @@ export default function HomeNav() {
             <ChoseUs />
             {/* <Team /> */}
             <Subscribe />
-            <MonthlyPlan />
+            {/* <MonthlyPlan /> */}
             <BMI />
-            <Testimonial />
+            {/* <Testimonial /> */}
         </>
     )
 }
