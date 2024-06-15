@@ -34,7 +34,9 @@ export default function BMI() {
                         <div className="pe-md-3 d-none d-md-block">
                             <h4 className="text-primary">Body Mass Index </h4>
                             <h4 className="display-4 text-white fw-bold mb-4">What is BMI?</h4>
-                            <p className="m-0 text-white">Vero elitr lorem magna justo magna justo at justo est ipsum sed clita lorem dolor ipsum sed. Lorem sea lorem vero. Sanct dolor clita clita rebum kasd magna erat diam</p>
+                            <p className="m-0 text-white">
+                            Body Mass Index (BMI) is a numerical value derived from an individual's height and weight. It is widely used as a simple and quick screening tool to categorize individuals into various weight categories that may lead to health problems. Although it does not measure body fat directly, it is a useful measure for most people, helping to identify whether they are underweight, normal weight, overweight, or obese.
+                            </p>
                         </div>
                     </div>
                     <div className="col-md-6 bg-secondary py-5">
