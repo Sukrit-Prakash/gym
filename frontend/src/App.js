@@ -27,6 +27,7 @@ import Footer from './components/Footer';
 import SignUp from "./components/loginsignup/signup";
 import Login from "./components/loginsignup/login";
 import Profile from "./components/profile/profile";
+import Insurance from "./components/insuranceform";
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route exact path="/features" component={FeaturesNav}></Route>
         <Route exact path="/contact" component={ContactNav}></Route>
         <Route exact path="/profile" component={Profile}></Route>
+        <Route exact path="/insurance" component={Insurance}></Route>
 
       </Switch>
 

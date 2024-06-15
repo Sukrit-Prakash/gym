@@ -122,6 +122,7 @@ const Navbar = () => {
                 <NavLink to="/login">Login</NavLink>
                 <NavLink to="/profile">Profile</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/insurance">Insurance</NavLink>
             </NavLinks>
         </NavbarContainer>
     );

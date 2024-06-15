@@ -12,6 +12,8 @@ model_path = os.path.join(base_dir, 'model.pkl')
 # Load the pre-trained model
 model = joblib.load(model_path)
 
+
+
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.json

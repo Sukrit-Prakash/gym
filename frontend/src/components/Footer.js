@@ -34,7 +34,7 @@ export default function Footer() {
                 <div className="row pt-5">
                     <div className="footer-nav col-lg-3 col-sm-6 mb-5 ps-sm-5 ps-lg-0">
                         <h4 className="mb-4">Get In Touch</h4>
-                        <p><i className="fa fa-map-marker-alt me-2"></i>HBTU KANPUR, New York, USA</p>
+                        <p><i className="fa fa-map-marker-alt me-2"></i>HBTU KANPUR, INDIA</p>
                         <p><i className="fa fa-phone-alt me-2"></i>+91 8076760632</p>
                         <p><i className="fa fa-envelope me-2"></i>sukritprakash2020@gmail.com</p>
 
@@ -60,8 +60,8 @@ export default function Footer() {
                 </div>
                 <div className="container border-top border-dark pt-5">
                     <p className="m-0 text-center text-white">
-                        &copy; <Link className="text-white fw-bold text-decoration-none" to="/">Your Site Name</Link>. All Rights Reserved. Designed by
-                        <Link className="text-white fw-bold text-decoration-none" to="/"> Arham Affan</Link>
+                        &copy; <Link className="text-white fw-bold text-decoration-none" to="/">FITNESS AI APPLICATION</Link>. All Rights Reserved. Designed by
+                        <Link className="text-white fw-bold text-decoration-none" to="/">  SUKRIT PRAKASH SINGH</Link>
                     </p>
                 </div>
             </div>
